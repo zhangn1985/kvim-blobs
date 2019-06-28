@@ -1,2 +1,2 @@
 # kvim-blobs
-kvim uboot blobs: build from https://github.com/khadas/u-boot/tree/khadas-vim-v2015.01
+kvim uboot blobs: copy from https://github.com/khadas/fenix/tree/master/packages/u-boot-mainline/fip
