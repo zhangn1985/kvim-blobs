@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<title>regulatory.db - kernel/git/sforshee/wireless-regdb.git - Wireless regulatory database for CRDA</title>
+<meta name='generator' content='cgit v1.1'/>
+<meta name='robots' content='noindex, nofollow'/>
+<link rel='stylesheet' type='text/css' href='/cgit-data/cgit.css'/>
+<link rel='shortcut icon' href='/favicon.ico'/>
+<link rel='alternate' title='Atom feed' href='http://git.kernel.org/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git/atom/regulatory.db?h=master' type='application/atom+xml'/>
+<link rel='vcs-git' href='git://git.kernel.org/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git' title='kernel/git/sforshee/wireless-regdb.git Git repository'/>
+<link rel='vcs-git' href='https://git.kernel.org/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git' title='kernel/git/sforshee/wireless-regdb.git Git repository'/>
+<link rel='vcs-git' href='https://kernel.googlesource.com/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git' title='kernel/git/sforshee/wireless-regdb.git Git repository'/>
+</head>
+<body>
+<div id='cgit'><table id='header'>
+<tr>
+<td class='logo' rowspan='2'><a href='/'><img src='/cgit-data/cgit.png' alt='cgit logo'/></a></td>
+<td class='main'><a href='/'>index</a> : <a title='kernel/git/sforshee/wireless-regdb.git' href='/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git/'>kernel/git/sforshee/wireless-regdb.git</a></td><td class='form'><form method='get'>
+<select name='h' onchange='this.form.submit();'>
+<option value='master' selected='selected'>master</option>
+<option value='pubkey'>pubkey</option>
+</select> <input type='submit' value='switch'/></form></td></tr>
+<tr><td class='sub'>Wireless regulatory database for CRDA</td><td class='sub right'>Seth Forshee</td></tr></table>
+<table class='tabs'><tr><td>
+<a href='/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git/about/'>about</a><a href='/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git/'>summary</a><a href='/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git/refs/'>refs</a><a href='/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git/log/regulatory.db'>log</a><a class='active' href='/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git/tree/regulatory.db'>tree</a><a href='/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git/commit/regulatory.db'>commit</a><a href='/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git/diff/regulatory.db'>diff</a><a href='/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git/stats/regulatory.db'>stats</a></td><td class='form'><form class='right' method='get' action='/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git/log/regulatory.db'>
+<select name='qt'>
+<option value='grep'>log msg</option>
+<option value='author'>author</option>
+<option value='committer'>committer</option>
+<option value='range'>range</option>
+</select>
+<input class='txt' type='text' size='10' name='q' value=''/>
+<input type='submit' value='search'/>
+</form>
+</td></tr></table>
+<div class='path'>path: <a href='/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git/tree/'>root</a>/<a href='/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git/tree/regulatory.db'>regulatory.db</a></div><div class='content'>blob: b86cffa8f0c00cecfd3faa4125e1d21f0c895c35 (<a href='/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git/plain/regulatory.db'>plain</a>)
+<table summary='blob content' class='bin-blob'>
+<tr><th>ofs</th><th>hex dump</th><th>ascii</th></tr><tr><td class='right'>0000</td><td class='hex'> 52 47 44 42 00 00 00 14 30 30 03 61 41 44 03 c5    41 45 03 bb 41 46 03 cc 41 49 03 dd 41 4c 03 cc </td><td class='hex'>RGDB....00.aAD..AE..AF..AI..AL..</td></tr>
+<tr><td class='right'>0020</td><td class='hex'> 41 4d 03 a3 41 4e 03 cc 41 52 03 bb 41 53 03 79    41 54 03 e4 41 55 03 58 41 57 03 cc 41 5a 03 bf </td><td class='hex'>AM..AN..AR..AS.yAT..AU.XAW..AZ..</td></tr>
+<tr><td class='right'>0040</td><td class='hex'> 42 41 03 e4 42 42 03 f5 42 44 04 15 42 45 03 e4    42 46 03 bb 42 47 03 fd 42 48 03 a6 42 4c 03 cc </td><td class='hex'>BA..BB..BD..BE..BF..BG..BH..BL..</td></tr>
+<tr><td class='right'>0060</td><td class='hex'> 42 4d 03 79 42 4e 03 da 42 4f 04 10 42 52 03 bb    42 53 04 05 42 54 03 cc 42 59 03 cc 42 5a 04 24 </td><td class='hex'>BM.yBN..BO..BR..BS..BT..BY..BZ.$</td></tr>
+<tr><td class='right'>0080</td><td class='hex'> 43 41 03 66 43 46 03 a9 43 48 03 98 43 49 03 bb    43 4c 03 da 43 4e 03 f8 43 4f 03 bb 43 52 03 9f </td><td class='hex'>CA.fCF..CH..CI..CL..CN..CO..CR..</td></tr>
+<tr><td class='right'>00a0</td><td class='hex'> 43 55 03 52 43 58 04 05 43 59 03 e4 43 5a 03 38    44 45 03 34 44 4b 03 1c 44 4d 03 6e 44 4f 03 6e </td><td class='hex'>CU.RCX..CY..CZ.8DE.4DK..DM.nDO.n</td></tr>
+<tr><td class='right'>00c0</td><td class='hex'> 44 5a 03 f2 45 43 03 9f 45 45 03 e4 45 47 03 ad    45 53 03 34 45 54 03 cc 46 49 03 20 46 4d 03 79 </td><td class='hex'>DZ..EC..EE..EG..ES.4ET..FI..FM.y</td></tr>
+<tr><td class='right'>00e0</td><td class='hex'> 46 52 03 8d 47 42 03 e4 47 44 03 71 47 45 03 c2    47 46 03 dd 47 48 03 bb 47 4c 03 dd 47 50 03 dd </td><td class='hex'>FR..GB..GD.qGE..GF..GH..GL..GP..</td></tr>
+<tr><td class='right'>0100</td><td class='hex'> 47 52 03 e4 47 54 03 6e 47 55 03 6a 47 59 04 22    48 4b 03 b7 48 4e 03 bb 48 52 03 28 48 54 03 79 </td><td class='hex'>GR..GT.nGU.jGY."HK..HN..HR.(HT.y</td></tr>
+<tr><td class='right'>0120</td><td class='hex'> 48 55 03 24 49 44 03 81 49 45 03 e4 49 4c 03 91    49 4e 03 94 49 52 04 15 49 53 03 e4 49 54 03 e4 </td><td class='hex'>HU.$ID..IE..IL..IN..IR..IS..IT..</td></tr>
+<tr><td class='right'>0140</td><td class='hex'> 4a 4d 03 bb 4a 4f 03 ef 4a 50 03 85 4b 45 03 ec    4b 48 03 cc 4b 4e 03 d2 4b 50 03 7d 4b 52 03 4b </td><td class='hex'>JM..JO..JP..KE..KH..KN..KP.}KR.K</td></tr>
+<tr><td class='right'>0160</td><td class='hex'> 4b 57 03 c9 4b 59 04 05 4b 5a 03 8a 4c 42 03 bb    4c 43 03 d2 4c 49 03 98 4c 4b 03 9f 4c 53 03 cc </td><td class='hex'>KW..KY..KZ..LB..LC..LI..LK..LS..</td></tr>
+<tr><td class='right'>0180</td><td class='hex'> 4c 54 03 e4 4c 55 03 e4 4c 56 03 e4 4d 41 03 c9    4d 43 03 dd 4d 44 03 cc 4d 45 03 dd 4d 46 03 dd </td><td class='hex'>LT..LU..LV..MA..MC..MD..ME..MF..</td></tr>
+<tr><td class='right'>01a0</td><td class='hex'> 4d 48 03 79 4d 4b 03 e4 4d 4e 04 05 4d 4f 04 17    4d 50 03 79 4d 51 03 dd 4d 52 03 cc 4d 54 03 e4 </td><td class='hex'>MH.yMK..MN..MO..MP.yMQ..MR..MT..</td></tr>
+<tr><td class='right'>01c0</td><td class='hex'> 4d 55 04 05 4d 56 03 2c 4d 57 03 cc 4d 58 03 bb    4d 59 04 01 4e 47 04 0d 4e 49 03 79 4e 4c 03 e8 </td><td class='hex'>MU..MV.,MW..MX..MY..NG..NI.yNL..</td></tr>
+<tr><td class='right'>01e0</td><td class='hex'> 4e 4f 03 2f 4e 50 03 da 4e 5a 04 1b 4f 4d 03 cc    50 41 03 5d 50 45 03 bb 50 46 03 dd 50 47 03 bb </td><td class='hex'>NO./NP..NZ..OM..PA.]PE..PF..PG..</td></tr>
+<tr><td class='right'>0200</td><td class='hex'> 50 48 03 bb 50 4b 04 15 50 4c 03 e4 50 4d 03 dd    50 52 03 71 50 54 03 e0 50 57 03 79 50 59 04 05 </td><td class='hex'>PH..PK..PL..PM..PR.qPT..PW.yPY..</td></tr>
+<tr><td class='right'>0220</td><td class='hex'> 51 41 03 47 52 45 03 dd 52 4f 03 e4 52 53 03 3c    52 55 03 d6 52 57 03 bb 53 41 03 cc 53 45 03 24 </td><td class='hex'>QA.GRE..RO..RS.&lt;RU..RW..SA..SE.$</td></tr>
+<tr><td class='right'>0240</td><td class='hex'> 53 47 03 4f 53 49 03 e4 53 4b 03 e4 53 4e 03 bb    53 52 03 cc 53 56 03 9c 53 59 03 83 54 43 04 09 </td><td class='hex'>SG.OSI..SK..SN..SR..SV..SY..TC..</td></tr>
+<tr><td class='right'>0260</td><td class='hex'> 54 44 03 cc 54 47 03 b0 54 48 03 bb 54 4e 03 c9    54 52 03 3f 54 54 03 bb 54 57 03 54 54 5a 04 13 </td><td class='hex'>TD..TG..TH..TN..TR.?TT..TW.TTZ..</td></tr>
+<tr><td class='right'>0280</td><td class='hex'> 55 41 03 43 55 47 04 05 55 53 03 75 55 59 03 f5    55 5a 03 c9 56 43 03 cc 56 45 04 1f 56 49 03 79 </td><td class='hex'>UA.CUG..US.uUY..UZ..VC..VE..VI.y</td></tr>
+<tr><td class='right'>02a0</td><td class='hex'> 56 4e 03 b3 56 55 03 bb 57 46 03 dd 57 53 03 b0    59 45 03 83 59 54 03 dd 5a 41 03 cf 5a 57 03 cc </td><td class='hex'>VN..VU..WF..WS..YE..YT..ZA..ZW..</td></tr>
+<tr><td class='right'>02c0</td><td class='hex'> 00 00 00 00 23 02 00 02 34 02 00 04 4a 03 00 06    4a 07 00 06 23 01 00 02 34 01 00 04 46 03 00 06 </td><td class='hex'>....#...4...J...J...#...4...F...</td></tr>
+<tr><td class='right'>02e0</td><td class='hex'> 4a 07 00 06 10 00 07 d0 00 24 9f 00 00 25 e5 2c    00 00 9c 40 10 02 07 d0 00 24 9f 00 00 25 e5 2c </td><td class='hex'>J........$...%.,...@.....$...%.,</td></tr>
+<tr><td class='right'>0300</td><td class='hex'> 00 00 9c 40 10 00 08 fc 00 24 9f 00 00 25 e5 2c    00 00 9c 40 10 00 08 fd 00 24 9f 00 00 25 e5 2c </td><td class='hex'>...@.....$...%.,...@.....$...%.,</td></tr>
+<tr><td class='right'>0320</td><td class='hex'> 00 00 9c 40 10 00 0b b8 00 24 9f 00 00 25 e5 2c    00 00 9c 40 10 00 0e 10 00 24 9f 00 00 25 e5 2c </td><td class='hex'>...@.....$...%.,...@.....$...%.,</td></tr>
+<tr><td class='right'>0340</td><td class='hex'> 00 00 9c 40 10 00 07 d0 00 24 a6 d0 00 25 b8 40    00 00 9c 40 10 00 0b b8 00 24 a6 d0 00 25 b8 40 </td><td class='hex'>...@.....$...%.@...@.....$...%.@</td></tr>
+<tr><td class='right'>0360</td><td class='hex'> 00 00 9c 40 10 00 07 d0 00 24 a6 d0 00 25 df 50    00 00 4e 20 10 00 07 d0 00 24 a6 d0 00 25 df 50 </td><td class='hex'>...@.....$...%.P..N......$...%.P</td></tr>
+<tr><td class='right'>0380</td><td class='hex'> 00 00 9c 40 10 00 08 fc 00 24 a6 d0 00 25 df 50    00 00 9c 40 10 00 0b b8 00 24 a6 d0 00 25 df 50 </td><td class='hex'>...@.....$...%.P...@.....$...%.P</td></tr>
+<tr><td class='right'>03a0</td><td class='hex'> 00 00 9c 40 10 18 07 d0 00 25 7d a8 00 25 df 50    00 00 4e 20 10 01 07 d0 00 25 c0 10 00 26 0e 30 </td><td class='hex'>...@.....%}..%.P..N......%...&amp;.0</td></tr>
+<tr><td class='right'>03c0</td><td class='hex'> 00 00 4e 20 10 09 07 d0 00 25 c0 10 00 26 0e 30    00 00 4e 20 10 00 08 fc 00 4a eb b0 00 4c 24 30 </td><td class='hex'>..N......%...&amp;.0..N......J...L$0</td></tr>
+<tr><td class='right'>03e0</td><td class='hex'> 00 00 9c 40 10 12 07 d0 00 4e 95 30 00 50 1b d0    00 01 38 80 10 10 08 fc 00 4e 95 30 00 50 1b d0 </td><td class='hex'>...@.....N.0.P....8......N.0.P..</td></tr>
+<tr><td class='right'>0400</td><td class='hex'> 00 01 38 80 14 10 08 fc 00 4e 95 30 00 50 1b d0    00 01 38 80 00 00 00 b1 10 12 08 fc 00 4e 95 30 </td><td class='hex'>..8......N.0.P....8..........N.0</td></tr>
+<tr><td class='right'>0420</td><td class='hex'> 00 50 1b d0 00 01 38 80 14 12 08 fc 00 4e 95 30    00 50 1b d0 00 01 38 80 00 00 00 b1 10 10 08 fd </td><td class='hex'>.P....8......N.0.P....8.........</td></tr>
+<tr><td class='right'>0440</td><td class='hex'> 00 4e 95 30 00 50 1b d0 00 01 38 80 14 10 08 fd    00 4e 95 30 00 50 1b d0 00 01 38 80 00 00 00 b1 </td><td class='hex'>.N.0.P....8......N.0.P....8.....</td></tr>
+<tr><td class='right'>0460</td><td class='hex'> 10 12 08 fd 00 4e 95 30 00 50 1b d0 00 01 38 80    14 12 08 fd 00 4e 95 30 00 50 1b d0 00 01 38 80 </td><td class='hex'>.....N.0.P....8......N.0.P....8.</td></tr>
+<tr><td class='right'>0480</td><td class='hex'> 00 00 00 b1 10 00 0b b8 00 4e 95 30 00 50 1b d0    00 01 38 80 10 10 0e 10 00 4e 95 30 00 50 1b d0 </td><td class='hex'>.........N.0.P....8......N.0.P..</td></tr>
+<tr><td class='right'>04a0</td><td class='hex'> 00 01 38 80 14 16 07 d0 00 4e 95 30 00 51 54 50    00 01 38 80 00 00 00 b1 10 02 08 fd 00 4e 95 30 </td><td class='hex'>..8......N.0.QTP..8..........N.0</td></tr>
+<tr><td class='right'>04c0</td><td class='hex'> 00 51 a2 70 00 00 9c 40 10 00 06 a4 00 4e e3 50    00 50 1b d0 00 00 4e 20 10 00 07 08 00 4e e3 50 </td><td class='hex'>.Q.p...@.....N.P.P....N......N.P</td></tr>
+<tr><td class='right'>04e0</td><td class='hex'> 00 50 1b d0 00 00 4e 20 10 00 07 d0 00 4e e3 50    00 50 1b d0 00 00 4e 20 10 00 06 a4 00 4e e3 50 </td><td class='hex'>.P....N......N.P.P....N......N.P</td></tr>
+<tr><td class='right'>0500</td><td class='hex'> 00 50 1b d0 00 00 9c 40 10 00 07 d0 00 4e e3 50    00 50 1b d0 00 00 9c 40 10 00 06 a4 00 4e e3 50 </td><td class='hex'>.P.....@.....N.P.P.....@.....N.P</td></tr>
+<tr><td class='right'>0520</td><td class='hex'> 00 50 1b d0 00 01 38 80 10 10 06 a4 00 4e e3 50    00 50 1b d0 00 01 38 80 10 10 07 08 00 4e e3 50 </td><td class='hex'>.P....8......N.P.P....8......N.P</td></tr>
+<tr><td class='right'>0540</td><td class='hex'> 00 50 1b d0 00 01 38 80 14 00 07 d0 00 4e e3 50    00 50 1b d0 00 01 38 80 00 00 00 b1 10 10 07 d0 </td><td class='hex'>.P....8......N.P.P....8.........</td></tr>
+<tr><td class='right'>0560</td><td class='hex'> 00 4e e3 50 00 50 1b d0 00 01 38 80 14 10 07 d0    00 4e e3 50 00 50 1b d0 00 01 38 80 00 00 00 b1 </td><td class='hex'>.N.P.P....8......N.P.P....8.....</td></tr>
+<tr><td class='right'>0580</td><td class='hex'> 14 12 07 d0 00 4e e3 50 00 50 1b d0 00 01 38 80    00 00 00 b1 10 18 07 d0 00 4e e3 50 00 50 1b d0 </td><td class='hex'>.....N.P.P....8..........N.P.P..</td></tr>
+<tr><td class='right'>05a0</td><td class='hex'> 00 01 38 80 10 00 08 fc 00 4e e3 50 00 50 1b d0    00 01 38 80 10 10 08 fc 00 4e e3 50 00 50 1b d0 </td><td class='hex'>..8......N.P.P....8......N.P.P..</td></tr>
+<tr><td class='right'>05c0</td><td class='hex'> 00 01 38 80 14 10 08 fc 00 4e e3 50 00 50 1b d0    00 01 38 80 00 00 00 b1 10 12 08 fc 00 4e e3 50 </td><td class='hex'>..8......N.P.P....8..........N.P</td></tr>
+<tr><td class='right'>05e0</td><td class='hex'> 00 50 1b d0 00 01 38 80 14 12 08 fc 00 4e e3 50    00 50 1b d0 00 01 38 80 00 00 00 b1 10 10 09 60 </td><td class='hex'>.P....8......N.P.P....8........`</td></tr>
+<tr><td class='right'>0600</td><td class='hex'> 00 4e e3 50 00 50 1b d0 00 01 38 80 14 10 09 60    00 4e e3 50 00 50 1b d0 00 01 38 80 00 00 00 b1 </td><td class='hex'>.N.P.P....8....`.N.P.P....8.....</td></tr>
+<tr><td class='right'>0620</td><td class='hex'> 10 04 07 08 00 50 1b d0 00 51 54 50 00 00 4e 20    10 04 07 d0 00 50 1b d0 00 51 54 50 00 00 4e 20 </td><td class='hex'>.....P...QTP..N......P...QTP..N.</td></tr>
+<tr><td class='right'>0640</td><td class='hex'> 10 04 08 fc 00 50 1b d0 00 51 54 50 00 00 4e 20    10 04 09 60 00 50 1b d0 00 51 54 50 00 00 4e 20 </td><td class='hex'>.....P...QTP..N....`.P...QTP..N.</td></tr>
+<tr><td class='right'>0660</td><td class='hex'> 10 04 07 d0 00 50 1b d0 00 51 54 50 00 00 9c 40    10 04 09 60 00 50 1b d0 00 51 54 50 00 00 9c 40 </td><td class='hex'>.....P...QTP...@...`.P...QTP...@</td></tr>
+<tr><td class='right'>0680</td><td class='hex'> 10 14 07 08 00 50 1b d0 00 51 54 50 00 01 38 80    14 04 07 d0 00 50 1b d0 00 51 54 50 00 01 38 80 </td><td class='hex'>.....P...QTP..8......P...QTP..8.</td></tr>
+<tr><td class='right'>06a0</td><td class='hex'> 00 00 00 b1 10 14 07 d0 00 50 1b d0 00 51 54 50    00 01 38 80 14 14 07 d0 00 50 1b d0 00 51 54 50 </td><td class='hex'>.........P...QTP..8......P...QTP</td></tr>
+<tr><td class='right'>06c0</td><td class='hex'> 00 01 38 80 00 00 00 b1 10 16 07 d0 00 50 1b d0    00 51 54 50 00 01 38 80 14 16 07 d0 00 50 1b d0 </td><td class='hex'>..8..........P...QTP..8......P..</td></tr>
+<tr><td class='right'>06e0</td><td class='hex'> 00 51 54 50 00 01 38 80 00 00 00 b1 10 1c 07 d0    00 50 1b d0 00 51 54 50 00 01 38 80 10 14 08 fc </td><td class='hex'>.QTP..8..........P...QTP..8.....</td></tr>
+<tr><td class='right'>0700</td><td class='hex'> 00 50 1b d0 00 51 54 50 00 01 38 80 10 04 09 60    00 50 1b d0 00 51 54 50 00 01 38 80 10 14 09 60 </td><td class='hex'>.P...QTP..8....`.P...QTP..8....`</td></tr>
+<tr><td class='right'>0720</td><td class='hex'> 00 50 1b d0 00 51 54 50 00 01 38 80 14 14 09 60    00 50 1b d0 00 51 54 50 00 01 38 80 00 00 00 b1 </td><td class='hex'>.P...QTP..8....`.P...QTP..8.....</td></tr>
+<tr><td class='right'>0740</td><td class='hex'> 10 04 0b b8 00 50 1b d0 00 51 54 50 00 01 38 80    10 14 07 d0 00 50 1b d0 00 51 a2 70 00 01 38 80 </td><td class='hex'>.....P...QTP..8......P...Q.p..8.</td></tr>
+<tr><td class='right'>0760</td><td class='hex'> 14 14 07 d0 00 50 1b d0 00 51 a2 70 00 01 38 80    00 00 00 b1 10 16 07 d0 00 50 1b d0 00 51 a2 70 </td><td class='hex'>.....P...Q.p..8..........P...Q.p</td></tr>
+<tr><td class='right'>0780</td><td class='hex'> 00 01 38 80 14 16 07 d0 00 50 1b d0 00 51 a2 70    00 01 38 80 00 00 00 b1 10 14 08 fc 00 50 1b d0 </td><td class='hex'>..8......P...Q.p..8..........P..</td></tr>
+<tr><td class='right'>07a0</td><td class='hex'> 00 51 a2 70 00 01 38 80 10 16 08 fd 00 50 1b d0    00 51 a2 70 00 01 38 80 10 00 09 60 00 50 1b d0 </td><td class='hex'>.Q.p..8......P...Q.p..8....`.P..</td></tr>
+<tr><td class='right'>07c0</td><td class='hex'> 00 51 a2 70 00 01 38 80 10 14 09 60 00 50 1b d0    00 51 a2 70 00 01 38 80 10 10 0b b8 00 50 1b d0 </td><td class='hex'>.Q.p..8....`.P...Q.p..8......P..</td></tr>
+<tr><td class='right'>07e0</td><td class='hex'> 00 51 a2 70 00 01 38 80 10 04 09 60 00 53 77 30    00 55 73 00 00 01 38 80 10 04 0a 8c 00 53 77 30 </td><td class='hex'>.Q.p..8....`.Sw0.Us...8......Sw0</td></tr>
+<tr><td class='right'>0800</td><td class='hex'> 00 55 73 00 00 01 38 80 10 04 0b b8 00 53 77 30    00 57 5b 48 00 00 4e 20 10 06 07 d0 00 53 77 30 </td><td class='hex'>.Us...8......Sw0.W[H..N......Sw0</td></tr>
+<tr><td class='right'>0820</td><td class='hex'> 00 57 5b 48 00 01 38 80 10 04 07 d0 00 53 77 30    00 57 5b 48 00 02 71 00 10 06 07 d0 00 53 77 30 </td><td class='hex'>.W[H..8......Sw0.W[H..q......Sw0</td></tr>
+<tr><td class='right'>0840</td><td class='hex'> 00 57 5b 48 00 02 71 00 10 04 08 fc 00 53 77 30    00 57 5b 48 00 02 71 00 10 00 09 60 00 53 77 30 </td><td class='hex'>.W[H..q......Sw0.W[H..q....`.Sw0</td></tr>
+<tr><td class='right'>0860</td><td class='hex'> 00 57 5b 48 00 02 71 00 14 04 0a 8a 00 53 77 30    00 57 5b 48 00 02 71 00 00 00 00 b1 10 04 0a 8c </td><td class='hex'>.W[H..q......Sw0.W[H..q.........</td></tr>
+<tr><td class='right'>0880</td><td class='hex'> 00 53 77 30 00 57 5b 48 00 02 71 00 14 04 0a 8c    00 53 77 30 00 57 5b 48 00 02 71 00 00 00 00 b1 </td><td class='hex'>.Sw0.W[H..q......Sw0.W[H..q.....</td></tr>
+<tr><td class='right'>08a0</td><td class='hex'> 10 00 0b b8 00 53 77 30 00 57 5b 48 00 02 71 00    14 04 0a 8a 00 53 77 30 00 58 6c b8 00 02 71 00 </td><td class='hex'>.....Sw0.W[H..q......Sw0.Xl...q.</td></tr>
+<tr><td class='right'>08c0</td><td class='hex'> 00 00 00 b1 10 04 0b b8 00 53 c5 50 00 54 fd d0    00 01 38 80 10 04 0b b8 00 53 c5 50 00 55 e8 30 </td><td class='hex'>.........S.P.T....8......S.P.U.0</td></tr>
+<tr><td class='right'>08e0</td><td class='hex'> 00 00 4e 20 10 04 09 60 00 53 c5 50 00 56 36 50    00 02 71 00 10 04 07 d0 00 53 c5 50 00 56 84 70 </td><td class='hex'>..N....`.S.P.V6P..q......S.P.V.p</td></tr>
+<tr><td class='right'>0900</td><td class='hex'> 00 02 71 00 10 04 08 fc 00 53 c5 50 00 56 84 70    00 02 71 00 10 04 0a 8c 00 53 c5 50 00 57 20 b0 </td><td class='hex'>..q......S.P.V.p..q......S.P.W..</td></tr>
+<tr><td class='right'>0920</td><td class='hex'> 00 00 9c 40 14 04 0a 8c 00 53 c5 50 00 57 20 b0    00 01 38 80 00 00 00 b1 10 04 08 fc 00 53 c5 50 </td><td class='hex'>...@.....S.P.W....8..........S.P</td></tr>
+<tr><td class='right'>0940</td><td class='hex'> 00 57 20 b0 00 02 71 00 10 04 09 60 00 53 c5 50    00 57 20 b0 00 02 71 00 10 04 0a 8c 00 53 c5 50 </td><td class='hex'>.W....q....`.S.P.W....q......S.P</td></tr>
+<tr><td class='right'>0960</td><td class='hex'> 00 57 20 b0 00 02 71 00 14 04 0a 8c 00 53 c5 50    00 57 20 b0 00 02 71 00 00 00 00 b1 10 00 0b b8 </td><td class='hex'>.W....q......S.P.W....q.........</td></tr>
+<tr><td class='right'>0980</td><td class='hex'> 00 53 c5 50 00 57 20 b0 00 02 71 00 10 04 0b b8    00 53 c5 50 00 57 20 b0 00 02 71 00 10 04 09 60 </td><td class='hex'>.S.P.W....q......S.P.W....q....`</td></tr>
+<tr><td class='right'>09a0</td><td class='hex'> 00 53 c5 50 00 57 6e d0 00 00 4e 20 10 04 09 60    00 53 c5 50 00 57 6e d0 00 00 9c 40 10 04 09 60 </td><td class='hex'>.S.P.Wn...N....`.S.P.Wn....@...`</td></tr>
+<tr><td class='right'>09c0</td><td class='hex'> 00 53 c5 50 00 57 6e d0 00 01 38 80 10 0c 07 d0    00 53 c5 50 00 57 6e d0 00 02 71 00 10 04 08 fc </td><td class='hex'>.S.P.Wn...8......S.P.Wn...q.....</td></tr>
+<tr><td class='right'>09e0</td><td class='hex'> 00 53 c5 50 00 57 6e d0 00 02 71 00 10 04 09 60    00 53 c5 50 00 57 6e d0 00 02 71 00 14 04 09 60 </td><td class='hex'>.S.P.Wn...q....`.S.P.Wn...q....`</td></tr>
+<tr><td class='right'>0a00</td><td class='hex'> 00 53 c5 50 00 57 6e d0 00 02 71 00 00 00 00 b1    10 04 0b b8 00 53 c5 50 00 57 6e d0 00 02 71 00 </td><td class='hex'>.S.P.Wn...q..........S.P.Wn...q.</td></tr>
+<tr><td class='right'>0a20</td><td class='hex'> 10 04 09 60 00 56 36 50 00 57 6e d0 00 01 38 80    10 04 0a 8c 00 56 36 50 00 57 6e d0 00 01 38 80 </td><td class='hex'>...`.V6P.Wn...8......V6P.Wn...8.</td></tr>
+<tr><td class='right'>0a40</td><td class='hex'> 10 04 0b b8 00 56 36 50 00 57 6e d0 00 01 38 80    10 00 08 fc 00 57 5b 48 00 59 08 f8 00 01 38 80 </td><td class='hex'>.....V6P.Wn...8......W[H.Y....8.</td></tr>
+<tr><td class='right'>0a60</td><td class='hex'> 10 00 07 d0 00 57 5b 48 00 59 43 90 00 01 38 80    10 00 0b b8 00 57 5b 48 00 59 43 90 00 01 38 80 </td><td class='hex'>.....W[H.YC...8......W[H.YC...8.</td></tr>
+<tr><td class='right'>0a80</td><td class='hex'> 10 00 0e 10 00 57 5b 48 00 59 43 90 00 01 38 80    10 00 05 75 00 57 5b 48 00 59 a5 38 00 01 38 80 </td><td class='hex'>.....W[H.YC...8....u.W[H.Y.8..8.</td></tr>
+<tr><td class='right'>0aa0</td><td class='hex'> 10 00 05 78 00 57 5b 48 00 59 a5 38 00 01 38 80    10 06 07 d0 00 57 5b 48 00 59 a5 38 00 01 38 80 </td><td class='hex'>...x.W[H.Y.8..8......W[H.Y.8..8.</td></tr>
+<tr><td class='right'>0ac0</td><td class='hex'> 10 00 0b b8 00 57 5b 48 00 59 a5 38 00 01 38 80    10 00 0e 10 00 57 6e d0 00 59 43 90 00 01 38 80 </td><td class='hex'>.....W[H.Y.8..8......Wn..YC...8.</td></tr>
+<tr><td class='right'>0ae0</td><td class='hex'> 10 00 08 fc 00 57 82 58 00 58 1e 98 00 00 9c 40    10 00 08 fc 00 57 82 58 00 58 ba d8 00 00 4e 20 </td><td class='hex'>.....W.X.X.....@.....W.X.X....N.</td></tr>
+<tr><td class='right'>0b00</td><td class='hex'> 10 00 0b b8 00 57 82 58 00 58 ba d8 00 00 4e 20    10 00 0b b8 00 57 82 58 00 58 ba d8 00 01 38 80 </td><td class='hex'>.....W.X.X....N......W.X.X....8.</td></tr>
+<tr><td class='right'>0b20</td><td class='hex'> 10 00 07 d0 00 57 82 58 00 59 08 f8 00 00 4e 20    10 00 0b b8 00 57 82 58 00 59 08 f8 00 00 4e 20 </td><td class='hex'>.....W.X.Y....N......W.X.Y....N.</td></tr>
+<tr><td class='right'>0b40</td><td class='hex'> 10 00 0b b8 00 57 82 58 00 59 08 f8 00 00 9c 40    10 00 07 d0 00 57 82 58 00 59 08 f8 00 01 38 80 </td><td class='hex'>.....W.X.Y.....@.....W.X.Y....8.</td></tr>
+<tr><td class='right'>0b60</td><td class='hex'> 10 08 07 d0 00 57 82 58 00 59 08 f8 00 01 38 80    10 00 08 fc 00 57 82 58 00 59 08 f8 00 01 38 80 </td><td class='hex'>.....W.X.Y....8......W.X.Y....8.</td></tr>
+<tr><td class='right'>0b80</td><td class='hex'> 10 00 09 60 00 57 82 58 00 59 08 f8 00 01 38 80    10 00 0b b8 00 57 82 58 00 59 08 f8 00 01 38 80 </td><td class='hex'>...`.W.X.Y....8......W.X.Y....8.</td></tr>
+<tr><td class='right'>0ba0</td><td class='hex'> 10 04 0c e5 00 58 ba d8 00 59 43 90 00 00 88 b8    10 00 07 d0 01 04 ec e0 01 07 fa 20 00 03 0d 40 </td><td class='hex'>.....X...YC....................@</td></tr>
+<tr><td class='right'>0bc0</td><td class='hex'> 10 00 10 cc 03 65 c0 40 03 d0 90 00 00 20 f5 80    10 00 03 e8 03 65 c0 40 03 ef 14 80 00 20 f5 80 </td><td class='hex'>.....e.@.............e.@........</td></tr>
+<tr><td class='right'>0be0</td><td class='hex'> 10 00 0f a0 03 65 c0 40 03 ef 14 80 00 20 f5 80    10 02 0f a0 03 65 c0 40 03 ef 14 80 00 20 f5 80 </td><td class='hex'>.....e.@.............e.@........</td></tr>
+<tr><td class='right'>0c00</td><td class='hex'> 10 00 10 cc 03 65 c0 40 03 ef 14 80 00 20 f5 80    10 02 10 cc 03 65 c0 40 03 ef 14 80 00 20 f5 80 </td><td class='hex'>.....e.@.............e.@........</td></tr>
+<tr><td class='right'>0c20</td><td class='hex'> 10 00 0a f0 03 69 69 c0 03 8a 5f 40 00 20 f5 80    10 00 00 00 03 69 69 c0 03 cc 4a 40 00 20 f5 80 </td><td class='hex'>.....ii..._@.........ii...J@....</td></tr>
+<tr><td class='right'>0c40</td><td class='hex'> 10 00 0f a0 03 69 69 c0 04 3b 5f c0 00 20 f5 80    10 00 11 30 03 8a 5f 40 03 cc 4a 40 00 20 f5 80 </td><td class='hex'>.....ii..;_........0.._@..J@....</td></tr>
+<tr><td class='right'>0c60</td><td class='hex'> 10 00 0a f0 03 cc 4a 40 03 ed 3f c0 00 20 f5 80    03 05 02 00 00 b9 01 01 01 d8 02 23 02 fc 00 00 </td><td class='hex'>......J@..?................#....</td></tr>
+<tr><td class='right'>0c80</td><td class='hex'> 03 06 02 00 00 b9 01 0a 01 e1 02 23 02 a4 02 f8    03 06 02 00 00 b9 01 0a 01 e1 02 23 02 a4 02 fc </td><td class='hex'>...........#...............#....</td></tr>
+<tr><td class='right'>0ca0</td><td class='hex'> 03 05 02 00 00 b9 01 0a 01 e1 02 23 02 f8 00 00    03 04 02 00 00 b9 01 0f 01 d4 02 98 03 07 02 00 </td><td class='hex'>...........#....................</td></tr>
+<tr><td class='right'>0cc0</td><td class='hex'> 00 b9 01 13 01 d8 02 2c 02 e8 02 ec 02 f8 00 00    03 06 02 00 00 b9 01 1c 01 e1 02 1a 02 a4 02 f8 </td><td class='hex'>.......,........................</td></tr>
+<tr><td class='right'>0ce0</td><td class='hex'> 03 05 02 00 00 b9 01 1c 01 e1 02 1a 02 f8 00 00    03 04 02 00 00 b9 01 2e 02 02 02 f8 03 05 02 00 </td><td class='hex'>................................</td></tr>
+<tr><td class='right'>0d00</td><td class='hex'> 00 b9 01 76 01 b2 02 1f 02 f8 00 00 03 06 02 00    00 bd 00 f9 01 dd 02 3d 02 d4 02 f8 03 06 02 00 </td><td class='hex'>...v...................=........</td></tr>
+<tr><td class='right'>0d20</td><td class='hex'> 00 bd 01 18 01 ea 02 0e 02 ac 02 fc 03 06 03 00    00 c1 00 fd 01 d4 02 0a 02 94 03 00 03 04 01 00 </td><td class='hex'>................................</td></tr>
+<tr><td class='right'>0d40</td><td class='hex'> 00 c1 00 fd 01 d4 02 9c 03 01 01 00 00 c5 00 00    03 06 01 00 00 c9 00 fd 01 e6 02 12 02 9c 02 f8 </td><td class='hex'>................................</td></tr>
+<tr><td class='right'>0d60</td><td class='hex'> 03 07 02 00 00 cd 01 06 01 dd 01 fe 02 8c 02 b4    03 04 00 00 03 06 01 00 00 cd 01 25 01 f6 02 28 </td><td class='hex'>...........................%...(</td></tr>
+<tr><td class='right'>0d80</td><td class='hex'> 02 a0 02 f0 03 08 00 00 00 d1 00 e9 00 f1 01 65    01 bb 02 73 02 d8 03 0c 03 06 01 00 00 d5 01 06 </td><td class='hex'>...............e...s............</td></tr>
+<tr><td class='right'>0da0</td><td class='hex'> 01 f2 01 fa 02 88 02 e4 03 05 01 00 00 d5 01 32    01 94 02 67 02 cc 00 00 03 04 01 00 00 d5 01 4a </td><td class='hex'>...............2...g...........J</td></tr>
+<tr><td class='right'>0dc0</td><td class='hex'> 01 bf 02 e4 03 05 01 00 00 d5 01 4a 01 c7 02 7b    02 e4 00 00 03 06 01 00 00 d5 01 6d 01 bf 02 77 </td><td class='hex'>...........J...{...........m...w</td></tr>
+<tr><td class='right'>0de0</td><td class='hex'> 02 e4 03 10 03 05 01 00 00 d5 01 7f 01 c7 02 7b    02 e4 00 00 03 05 03 00 00 d9 01 3a 01 8c 02 35 </td><td class='hex'>...............{...........:...5</td></tr>
+<tr><td class='right'>0e00</td><td class='hex'> 02 c0 00 00 03 02 03 00 00 d9 02 bc 03 01 00 00    00 dd 00 00 03 07 03 00 00 dd 00 ed 00 f5 01 57 </td><td class='hex'>...............................W</td></tr>
+<tr><td class='right'>0e20</td><td class='hex'> 01 a9 02 4e 02 f4 00 00 03 04 02 00 00 dd 00 f9    01 dd 02 06 03 06 02 00 00 dd 01 0a 01 e1 02 23 </td><td class='hex'>...N...........................#</td></tr>
+<tr><td class='right'>0e40</td><td class='hex'> 02 a4 02 f8 03 03 02 00 00 dd 01 18 01 ea 00 00    03 05 00 00 00 dd 01 21 01 ee 02 16 02 b0 00 00 </td><td class='hex'>.......................!........</td></tr>
+<tr><td class='right'>0e60</td><td class='hex'> 03 05 02 00 00 dd 01 29 01 7a 02 5a 02 f8 00 00    03 04 01 00 00 dd 01 32 01 90 02 cc 03 05 01 00 </td><td class='hex'>.......).z.Z...........2........</td></tr>
+<tr><td class='right'>0e80</td><td class='hex'> 00 dd 01 32 01 94 02 67 02 cc 00 00 03 03 02 00    00 dd 01 36 01 88 00 00 03 04 03 00 00 dd 01 3a </td><td class='hex'>...2...g...........6...........:</td></tr>
+<tr><td class='right'>0ea0</td><td class='hex'> 01 8c 02 c8 03 05 01 00 00 dd 01 3e 01 9c 02 6b    02 d0 00 00 03 03 02 00 00 dd 01 42 01 98 00 00 </td><td class='hex'>...........&gt;...k...........B....</td></tr>
+<tr><td class='right'>0ec0</td><td class='hex'> 03 04 02 00 00 dd 01 42 01 98 02 45 03 05 01 00    00 dd 01 46 01 c3 02 6f 02 e4 00 00 03 05 02 00 </td><td class='hex'>.......B...E.......F...o........</td></tr>
+<tr><td class='right'>0ee0</td><td class='hex'> 00 dd 01 4a 01 c7 02 52 02 e4 00 00 03 05 01 00    00 dd 01 4a 01 c7 02 7b 02 e4 00 00 03 03 02 00 </td><td class='hex'>...J...R...........J...{........</td></tr>
+<tr><td class='right'>0f00</td><td class='hex'> 00 dd 01 4e 01 a0 00 00 03 04 02 00 00 dd 01 4e    01 a0 02 f8 03 05 00 00 00 dd 01 52 01 a4 02 49 </td><td class='hex'>...N...........N...........R...I</td></tr>
+<tr><td class='right'>0f20</td><td class='hex'> 02 f8 00 00 03 03 02 00 00 dd 01 57 01 a9 00 00    03 04 02 00 00 dd 01 57 01 a9 02 56 03 04 02 00 </td><td class='hex'>...........W...........W...V....</td></tr>
+<tr><td class='right'>0f40</td><td class='hex'> 00 dd 01 57 01 a9 02 5f 03 05 02 00 00 dd 01 57    01 a9 02 63 02 c4 00 00 03 06 02 00 00 dd 01 57 </td><td class='hex'>...W..._.......W...c...........W</td></tr>
+<tr><td class='right'>0f60</td><td class='hex'> 01 a9 02 90 02 e4 02 f8 03 04 03 00 00 dd 01 57    01 a9 02 d4 03 04 02 00 00 dd 01 5b 01 ad 02 5a </td><td class='hex'>...............W...........[...Z</td></tr>
+<tr><td class='right'>0f80</td><td class='hex'> 03 06 02 00 00 dd 01 5b 01 ad 02 5a 02 a4 02 f8    03 05 02 00 00 dd 01 5b 01 ad 02 5a 02 f8 00 00 </td><td class='hex'>.......[...Z...........[...Z....</td></tr>
+<tr><td class='right'>0fa0</td><td class='hex'> 03 06 02 00 00 dd 01 60 01 b6 02 5a 02 a4 02 f8    03 04 03 00 00 dd 01 69 02 31 02 b8 03 03 03 00 </td><td class='hex'>.......`...Z...........i.1......</td></tr>
+<tr><td class='right'>0fc0</td><td class='hex'> 00 dd 01 69 02 dc 00 00 03 04 03 00 00 dd 01 6d    01 bf 02 41 03 04 01 00 00 dd 01 6d 01 bf 02 e4 </td><td class='hex'>...i...........m...A.......m....</td></tr>
+<tr><td class='right'>0fe0</td><td class='hex'> 03 07 01 00 00 dd 01 6d 01 bf 02 e4 03 08 03 14    03 18 00 00 03 06 02 00 00 dd 01 71 01 ad 02 5a </td><td class='hex'>.......m...................q...Z</td></tr>
+<tr><td class='right'>1000</td><td class='hex'> 02 a8 02 fc 03 05 01 00 00 dd 01 7f 01 c7 02 39    02 e0 00 00 03 05 01 00 00 dd 01 7f 01 c7 02 7b </td><td class='hex'>...............9...............{</td></tr>
+<tr><td class='right'>1020</td><td class='hex'> 02 e4 00 00 03 05 01 00 00 dd 01 83 01 cb 02 7f    02 e4 00 00 03 03 02 00 00 dd 01 d0 02 e4 00 00 </td><td class='hex'>................................</td></tr>
+<tr><td class='right'>1040</td><td class='hex'> 03 03 03 00 00 dd 01 d0 02 e4 00 00 03 02 00 00    00 dd 02 e4 03 02 03 00 00 dd 02 e4 03 05 01 00 </td><td class='hex'>................................</td></tr>
+<tr><td class='right'>1060</td><td class='hex'> 00 e1 01 6d 01 bf 02 84 02 e4 00 00 03 05 02 00    00 e5 01 4a 01 c7 02 7b 02 e4 00 00 03 04 01 00 </td><td class='hex'>...m...............J...{........</td></tr>
+<tr><td class='right'>1080</td><td class='hex'> 00 e5 01 6d 01 bf 02 e4 03 02 00 00 00 e5 02 e4    03 02 03 00 00 e5 02 e4 </td><td class='hex'>...m....................</td></tr>
+</table>
+</div> <!-- class=content -->
+<div class='footer'>generated by <a href='https://git.zx2c4.com/cgit/about/'>cgit v1.1</a> at 2020-02-10 14:34:41 +0000</div>
+</div> <!-- id=cgit -->
+</body>
+</html>

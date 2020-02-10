@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<title>regulatory.db.p7s - kernel/git/sforshee/wireless-regdb.git - Wireless regulatory database for CRDA</title>
+<meta name='generator' content='cgit v1.1'/>
+<meta name='robots' content='noindex, nofollow'/>
+<link rel='stylesheet' type='text/css' href='/cgit-data/cgit.css'/>
+<link rel='shortcut icon' href='/favicon.ico'/>
+<link rel='alternate' title='Atom feed' href='http://git.kernel.org/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git/atom/regulatory.db.p7s?h=master' type='application/atom+xml'/>
+<link rel='vcs-git' href='git://git.kernel.org/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git' title='kernel/git/sforshee/wireless-regdb.git Git repository'/>
+<link rel='vcs-git' href='https://git.kernel.org/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git' title='kernel/git/sforshee/wireless-regdb.git Git repository'/>
+<link rel='vcs-git' href='https://kernel.googlesource.com/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git' title='kernel/git/sforshee/wireless-regdb.git Git repository'/>
+</head>
+<body>
+<div id='cgit'><table id='header'>
+<tr>
+<td class='logo' rowspan='2'><a href='/'><img src='/cgit-data/cgit.png' alt='cgit logo'/></a></td>
+<td class='main'><a href='/'>index</a> : <a title='kernel/git/sforshee/wireless-regdb.git' href='/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git/'>kernel/git/sforshee/wireless-regdb.git</a></td><td class='form'><form method='get'>
+<select name='h' onchange='this.form.submit();'>
+<option value='master' selected='selected'>master</option>
+<option value='pubkey'>pubkey</option>
+</select> <input type='submit' value='switch'/></form></td></tr>
+<tr><td class='sub'>Wireless regulatory database for CRDA</td><td class='sub right'>Seth Forshee</td></tr></table>
+<table class='tabs'><tr><td>
+<a href='/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git/about/'>about</a><a href='/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git/'>summary</a><a href='/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git/refs/'>refs</a><a href='/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git/log/regulatory.db.p7s'>log</a><a class='active' href='/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git/tree/regulatory.db.p7s'>tree</a><a href='/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git/commit/regulatory.db.p7s'>commit</a><a href='/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git/diff/regulatory.db.p7s'>diff</a><a href='/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git/stats/regulatory.db.p7s'>stats</a></td><td class='form'><form class='right' method='get' action='/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git/log/regulatory.db.p7s'>
+<select name='qt'>
+<option value='grep'>log msg</option>
+<option value='author'>author</option>
+<option value='committer'>committer</option>
+<option value='range'>range</option>
+</select>
+<input class='txt' type='text' size='10' name='q' value=''/>
+<input type='submit' value='search'/>
+</form>
+</td></tr></table>
+<div class='path'>path: <a href='/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git/tree/'>root</a>/<a href='/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git/tree/regulatory.db.p7s'>regulatory.db.p7s</a></div><div class='content'>blob: ac6b4ccf05b7998c7516b1420b6bf33e6d05ac66 (<a href='/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git/plain/regulatory.db.p7s'>plain</a>)
+<table summary='blob content' class='bin-blob'>
+<tr><th>ofs</th><th>hex dump</th><th>ascii</th></tr><tr><td class='right'>0000</td><td class='hex'> 30 82 04 9a 06 09 2a 86 48 86 f7 0d 01 07 02 a0    82 04 8b 30 82 04 87 02 01 01 31 0f 30 0d 06 09 </td><td class='hex'>0.....*.H..........0......1.0...</td></tr>
+<tr><td class='right'>0020</td><td class='hex'> 60 86 48 01 65 03 04 02 01 05 00 30 0b 06 09 2a    86 48 86 f7 0d 01 07 01 a0 82 02 a8 30 82 02 a4 </td><td class='hex'>`.H.e......0...*.H..........0...</td></tr>
+<tr><td class='right'>0040</td><td class='hex'> 30 82 01 8c 02 09 00 b2 8d df 47 ae f9 ce a7 30    0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 30 13 </td><td class='hex'>0.........G....0...*.H........0.</td></tr>
+<tr><td class='right'>0060</td><td class='hex'> 31 11 30 0f 06 03 55 04 03 0c 08 73 66 6f 72 73    68 65 65 30 20 17 0d 31 37 31 30 30 36 31 39 34 </td><td class='hex'>1.0...U....sforshee0...171006194</td></tr>
+<tr><td class='right'>0080</td><td class='hex'> 30 33 35 5a 18 0f 32 31 31 37 30 39 31 32 31 39    34 30 33 35 5a 30 13 31 11 30 0f 06 03 55 04 03 </td><td class='hex'>035Z..21170912194035Z0.1.0...U..</td></tr>
+<tr><td class='right'>00a0</td><td class='hex'> 0c 08 73 66 6f 72 73 68 65 65 30 82 01 22 30 0d    06 09 2a 86 48 86 f7 0d 01 01 01 05 00 03 82 01 </td><td class='hex'>..sforshee0.."0...*.H...........</td></tr>
+<tr><td class='right'>00c0</td><td class='hex'> 0f 00 30 82 01 0a 02 82 01 01 00 b5 40 e3 9c 28    84 39 03 f2 39 d7 66 2c 41 38 15 ac 7e a5 83 71 </td><td class='hex'>..0.........@..(.9..9.f,A8..~..q</td></tr>
+<tr><td class='right'>00e0</td><td class='hex'> 25 7e 90 7c 68 dd 6f 3f d9 d7 59 38 9f 7c 6a 52    c2 03 2a 2d 7e 66 f4 1e b3 12 70 20 5b d4 97 32 </td><td class='hex'>%~.|h.o?..Y8.|jR..*-~f....p.[..2</td></tr>
+<tr><td class='right'>0100</td><td class='hex'> 3d 71 8b 3b 1b 08 17 14 6b 61 c4 57 8b 96 16 1c    fd 24 d5 0b 09 f9 68 11 84 fb ca 51 0c d1 45 19 </td><td class='hex'>=q.;....ka.W.....$....h....Q..E.</td></tr>
+<tr><td class='right'>0120</td><td class='hex'> da 10 44 8a d9 fe 76 a9 fd 60 2d 18 0b 28 95 b2    2d ea 88 98 b8 d1 56 21 f0 53 1f f1 02 6f e9 46 </td><td class='hex'>..D...v..`-..(..-.....V!.S...o.F</td></tr>
+<tr><td class='right'>0140</td><td class='hex'> 9b 93 5f 28 90 0f ac 36 fa 68 23 71 57 56 f6 cc    d3 df 7d 2a d9 1b 73 45 eb ba 27 85 ef 7a 7f a5 </td><td class='hex'>.._(...6.h#qWV....}*..sE..'..z..</td></tr>
+<tr><td class='right'>0160</td><td class='hex'> cb 80 c7 30 36 d2 53 ee ec ac 1e e7 31 f1 36 a2    9c 63 c6 65 5b 7f 25 75 68 a1 ea d3 7e 00 5c 9a </td><td class='hex'>...06.S.....1.6..c.e[.%uh...~.\.</td></tr>
+<tr><td class='right'>0180</td><td class='hex'> 5e d8 20 18 32 77 07 29 12 66 1e 36 73 e7 97 04    41 37 b1 b1 72 2b f4 a1 29 20 7c 96 79 0b 2b d0 </td><td class='hex'>^...2w.).f.6s...A7..r+..).|.y.+.</td></tr>
+<tr><td class='right'>01a0</td><td class='hex'> d8 de c8 6c 3f 93 fb c5 ee 78 52 11 15 1b 7a f6    e2 68 99 e7 fb 46 16 84 e3 c7 a1 e6 e0 d2 46 d5 </td><td class='hex'>...l?....xR...z..h...F........F.</td></tr>
+<tr><td class='right'>01c0</td><td class='hex'> e1 c4 5f a0 66 f4 da c4 ff 95 1d 02 03 01 00 01    30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 00 03 </td><td class='hex'>.._.f...........0...*.H.........</td></tr>
+<tr><td class='right'>01e0</td><td class='hex'> 82 01 01 00 87 03 da f2 82 c2 dd af 7c 44 2f 86    d3 5f 4c 93 48 b9 fe 07 17 bb 21 f7 25 23 4e aa </td><td class='hex'>............|D/.._L.H.....!.%#N.</td></tr>
+<tr><td class='right'>0200</td><td class='hex'> 22 0c 16 b9 73 ae 9d 46 7c 75 d9 c3 49 57 47 bf    33 b7 97 ec f5 40 75 c0 46 22 f0 a0 5d 9c 79 13 </td><td class='hex'>"...s..F|u..IWG.3....@u.F"..].y.</td></tr>
+<tr><td class='right'>0220</td><td class='hex'> a1 ff b8 a3 2f 7b 8e 06 3f c8 b6 e4 6a 28 f2 34    5c 23 3f 32 c0 e6 ad 0f ac cf 55 74 47 73 d3 01 </td><td class='hex'>..../{..?...j(.4\#?2......UtGs..</td></tr>
+<tr><td class='right'>0240</td><td class='hex'> 85 b7 0b 22 56 24 7d 9f 09 a9 0e 86 9e 37 5b 9c    6d 02 d9 8c c8 50 6a e2 59 f3 16 06 ea b2 42 b5 </td><td class='hex'>..."V$}......7[.m....Pj.Y.....B.</td></tr>
+<tr><td class='right'>0260</td><td class='hex'> 58 fe ba d1 81 57 1a ef b2 38 88 58 f6 aa c4 2e    8b 5a 27 e4 a5 e8 a4 ca 67 5c ac 72 67 c3 6f 13 </td><td class='hex'>X....W...8.X.....Z'.....g\.rg.o.</td></tr>
+<tr><td class='right'>0280</td><td class='hex'> c3 2d 35 79 d7 8a e7 f5 d4 21 30 4a d5 f6 a3 d9    79 56 f2 0f 10 f7 7d d0 51 93 2f 47 f8 7d 4b 0a </td><td class='hex'>.-5y.....!0J....yV....}.Q./G.}K.</td></tr>
+<tr><td class='right'>02a0</td><td class='hex'> 84 55 12 0a 7d 4e 3b 1f 2b 2f fc 28 b3 69 34 e1    80 80 bb e2 af b9 d6 30 f1 1d 54 87 23 99 9f 51 </td><td class='hex'>.U..}N;.+/.(.i4........0..T.#..Q</td></tr>
+<tr><td class='right'>02c0</td><td class='hex'> 03 4c 45 7d 02 65 73 ab fd cf 94 cc 0d 3a 60 fd    3c 14 2f 16 33 a9 21 1f cb 50 b1 8f 03 ee a0 66 </td><td class='hex'>.LE}.es......:`.&lt;./.3.!..P.....f</td></tr>
+<tr><td class='right'>02e0</td><td class='hex'> a9 16 79 14 31 82 01 b6 30 82 01 b2 02 01 01 30    20 30 13 31 11 30 0f 06 03 55 04 03 0c 08 73 66 </td><td class='hex'>..y.1...0......0.0.1.0...U....sf</td></tr>
+<tr><td class='right'>0300</td><td class='hex'> 6f 72 73 68 65 65 02 09 00 b2 8d df 47 ae f9 ce    a7 30 0d 06 09 60 86 48 01 65 03 04 02 01 05 00 </td><td class='hex'>orshee......G....0...`.H.e......</td></tr>
+<tr><td class='right'>0320</td><td class='hex'> a0 69 30 18 06 09 2a 86 48 86 f7 0d 01 09 03 31    0b 06 09 2a 86 48 86 f7 0d 01 07 01 30 1c 06 09 </td><td class='hex'>.i0...*.H......1...*.H......0...</td></tr>
+<tr><td class='right'>0340</td><td class='hex'> 2a 86 48 86 f7 0d 01 09 05 31 0f 17 0d 31 39 30    36 30 33 32 31 33 39 32 39 5a 30 2f 06 09 2a 86 </td><td class='hex'>*.H......1...190603213929Z0/..*.</td></tr>
+<tr><td class='right'>0360</td><td class='hex'> 48 86 f7 0d 01 09 04 31 22 04 20 a4 e3 10 f3 8a    aa 61 dd 3a 37 c7 9c 1f e4 46 74 57 86 b1 10 4e </td><td class='hex'>H......1"........a.:7....FtW...N</td></tr>
+<tr><td class='right'>0380</td><td class='hex'> b4 c0 4b ff 42 a2 09 bc fc ea d2 30 0d 06 09 2a    86 48 86 f7 0d 01 01 01 05 00 04 82 01 00 49 10 </td><td class='hex'>..K.B......0...*.H............I.</td></tr>
+<tr><td class='right'>03a0</td><td class='hex'> 3e ae 77 ce 12 20 1b 31 78 ac 65 48 b4 f5 c6 7a    db 45 79 96 16 5f e5 e9 ca c7 ac ad 94 df a5 e7 </td><td class='hex'>&gt;.w....1x.eH...z.Ey.._..........</td></tr>
+<tr><td class='right'>03c0</td><td class='hex'> e2 c6 07 4a 39 1f c6 66 6e 53 7b 22 3e 61 f7 d7    13 d5 7d de 16 45 cd b7 fe 09 93 93 e8 35 e0 3e </td><td class='hex'>...J9..fnS{"&gt;a....}..E.......5.&gt;</td></tr>
+<tr><td class='right'>03e0</td><td class='hex'> 45 90 e1 99 c5 d8 05 d1 8d 11 b6 d3 65 db 2e 56    a3 c4 0e 61 a4 b2 29 ca 52 4b 93 52 4e 7d fc 20 </td><td class='hex'>E...........e..V...a..).RK.RN}..</td></tr>
+<tr><td class='right'>0400</td><td class='hex'> bc 9d 4f 6f f4 1f ba 9c 46 a2 56 66 3e 31 7f 2b    22 8c a9 83 f6 31 6e 74 7d b8 c8 e0 1f b8 8a 7d </td><td class='hex'>..Oo....F.Vf&gt;1.+"....1nt}......}</td></tr>
+<tr><td class='right'>0420</td><td class='hex'> 75 65 25 fc 96 fd 47 c2 5a 74 77 54 7a d3 fa b1    27 e6 1b 77 03 af 40 34 1a 19 c6 f7 a1 63 f4 fc </td><td class='hex'>ue%...G.ZtwTz...'..w..@4.....c..</td></tr>
+<tr><td class='right'>0440</td><td class='hex'> 06 ca 7c cb 6a 84 63 8d 67 d8 d2 51 32 38 19 9a    63 4f 5a 52 89 ba a7 3d d7 3a b9 77 c2 21 20 a6 </td><td class='hex'>..|.j.c.g..Q28..cOZR...=.:.w.!..</td></tr>
+<tr><td class='right'>0460</td><td class='hex'> f3 76 f6 70 f4 4d 87 8b 07 81 25 82 c6 89 26 9c    d6 52 ce b5 08 92 b9 19 c8 00 4c bc 57 4d 0f 64 </td><td class='hex'>.v.p.M....%...&amp;..R........L.WM.d</td></tr>
+<tr><td class='right'>0480</td><td class='hex'> cb bb 4f 9c 3b 95 6e 9d ab d8 67 17 9c a6 ac f3    b0 97 33 1e 3f 5e 74 e5 81 12 ad 84 94 51 </td><td class='hex'>..O.;.n...g.......3.?^t......Q</td></tr>
+</table>
+</div> <!-- class=content -->
+<div class='footer'>generated by <a href='https://git.zx2c4.com/cgit/about/'>cgit v1.1</a> at 2020-02-10 14:35:08 +0000</div>
+</div> <!-- id=cgit -->
+</body>
+</html>
